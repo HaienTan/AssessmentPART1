@@ -59,7 +59,7 @@ Word count: 581 words
 
 In this coursework, two maps are created separately using GUI-based GIS software and code-based software. Both maps illustrate how frequent the rates of all recorded offences are in 32 Boroughs in the year of 2008. The darker polygon the higher rate of all recorded offences in the corresponding area. 
 
-##Benefits and drawbacks of GUI vs Command line generated maps:
+## Benefits and drawbacks of GUI vs Command line generated maps:
 
 GUI-based GIS software and code-based software are two useful application to make geospatial maps. ArcMap and R are taken in this coursework. 
 
@@ -73,12 +73,12 @@ On the other hand, R is an open source software which is freely enabled to use f
 
 Furthermore, the simplest map in R does not require data files as some packages have included outlines of continents, countries and states.  And also, R allows to produce reproducible works. As a result of code-based pattern, the codes can be a template under similar works. Users only need to copy and edit codes for plotting new similar maps.
 
-##The data sources used in their generation:
+## The data sources used in their generation:
 
 Two datasets are focused in this coursework. One is the most recent boundaries for the 32 London boroughs in shapefile format, which is downloaded from the Edina Census Geography website. The other is related to crime and safety community in England and Wales, downloaded from the London Datastore. The data was created by MPs and  Home office. The dataset contains numbers of recorded offences, and rates of offences per thousand population from 1999 to 2017 in England and Wales but excluding the city of London. This coursework will consider the sub-group of the rates of all recorded offences are in 32 Boroughs in the year of 2008. 
 
 
-##A review of the workflows used to generate both maps:
+## A review of the workflows used to generate both maps:
 
 For the ArcMap, the workflow is, to clean up the data using Excel then attach the cleaned-up data into the ArcMap. ArcMap cannot clean up data, but R have tools to easily clean up data. R is far ahead of ArcMap in this respect. When plotting, add the layers into the map, a collection of offence records mentioned above. For the R, we will make use of a function qtm() from tmap package which enable users to make maps very easily.
 
